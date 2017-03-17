@@ -1,0 +1,71 @@
+header {
+	position: relative;
+	height: 300px;
+	background: url("../images/bgtile.png") repeat center;
+	clear: both;
+}
+
+#brandLogin {
+	position: relative;
+	vertical-align: center;
+	line-height: 400px;
+	float: right;
+	right: 250px;
+}
+
+button {
+	font-size: 15px;
+	vertical-align: center;
+	line-height: 100%;
+}
+
+#bodyContent {
+	width: auto;
+}
+
+img {
+	display: inline;
+	position: relative;
+	width: 25%;
+	float: left;
+	left: 100px;
+	bottom: 170px;
+}
+
+h2 {
+	position: relative;
+	text-align: left;
+
+}
+
+#contentSection {
+	display: inline;
+	position: relative;
+	width: 50%;
+	float: right;
+	background: url("../images/frame.png") no-repeat center;
+	bottom: 200px;
+	right: 100px;
+	margin: 20px;
+}
+
+#contentSection h2 {
+	position: relative;
+	left: 40px;
+	top: 50px;
+	line-height: 50%;
+}
+
+#contentSection p {
+	position: relative;
+	left: 10px;
+	top: 30px;
+	width: auto;
+	margin: 30px;
+}
+
+#appStores {
+	position: relative;
+	bottom: -200px;
+	left: -100px;
+}
