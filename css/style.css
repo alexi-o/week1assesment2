@@ -1,71 +1,115 @@
-header {
-	position: relative;
-	height: 300px;
-	background: url("../images/bgtile.png") repeat center;
-	clear: both;
+.header {
+	margin: 0 auto;
+	background: url("../images/bgtile.png");
+	min-height: 250px;
 }
 
-#brandLogin {
+.logo {
 	position: relative;
-	vertical-align: center;
-	line-height: 400px;
-	float: right;
-	right: 250px;
+	display: inline-block;
+	top: 100px;
+	left: 40%;
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 3px;
+    position: relative;
+    background: url("../images/bgtile.png");
+    font-weight: 500;
+    border: 1px solid white;
+    left: 44%;
+    top: 70px;
+    box-shadow: 3px 3px 3px #000000;
 }
 
 button {
-	font-size: 15px;
-	vertical-align: center;
-	line-height: 100%;
-}
-
-#bodyContent {
-	width: auto;
-}
-
-img {
-	display: inline;
+	max-width: 102px;
 	position: relative;
-	width: 25%;
-	float: left;
-	left: 100px;
-	bottom: 170px;
+	background: url("../images/bgtile.png");
+	border: none;
+}
+
+#loginFont {
+	font-family: 'Slabo 27px', serif;
+	font-weight: 800;
+	position: relative;
+	font-size: 15px;
+	left: 10px;		
+}
+
+.body {
+	position: relative;
+	clear: both;
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+	left: 30px;
+	max-width: 450px;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	font-family: 'Roboto Slab', serif;
 }
 
 h2 {
+	color: #125688;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 800;
 	position: relative;
-	text-align: left;
-
+	left: 30px;
+	line-height: 40%;
+	top: 10px;
 }
 
-#contentSection {
+.button p {
+	position: relative;
 	display: inline;
+	font-weight: 900;
+	font-size: 1.2em;
+	color: white;
+	padding: 10px;
+	bottom: 4px;
+}
+
+.phones {
 	position: relative;
-	width: 50%;
+	display: inline;
 	float: right;
-	background: url("../images/frame.png") no-repeat center;
-	bottom: 200px;
-	right: 100px;
-	margin: 20px;
+	right: 550px;
+	bottom: 450px;
 }
 
-#contentSection h2 {
+.content {
 	position: relative;
-	left: 40px;
-	top: 50px;
-	line-height: 50%;
+	float: right;
+	display: inline;
+	width: 500px;
+    background: url("../images/frame.png") no-repeat;
+    right: 210px;
+    bottom: 60px;
+    max-height: 350px;
 }
 
-#contentSection p {
-	position: relative;
-	left: 10px;
-	top: 30px;
-	width: auto;
-	margin: 30px;
+footer {
+	clear: both;
+	text-align: center;
 }
 
-#appStores {
+li {
 	position: relative;
-	bottom: -200px;
-	left: -100px;
+	display: inline;
+
+}
+
+#copyFont {
+	color: grey;
+	font-family: 'Roboto Slab', serif;
+
 }
