@@ -1,6 +1,6 @@
 .header {
 	margin: 0 auto;
-	background: url("../images/bgtile.png");
+	background: linear-gradient(#125688, #47779b);
 	min-height: 250px;
 }
 
@@ -55,6 +55,7 @@ a {
 	text-decoration: none;
 	text-transform: uppercase;
 	padding: 10px;
+	color: #3f729b;
 	font-family: 'Roboto Slab', serif;
 }
 
