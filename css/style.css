@@ -1,27 +1,28 @@
+/*Contains nothing. Merely here to show the blue background block*/
 .header {
 	margin: 0 auto;
 	background: linear-gradient(#125688, #47779b);
 	min-height: 250px;
 }
-
+/*Instagram logo*/
 .logo {
 	position: relative;
 	display: inline-block;
-	top: 100px;
-	left: 40%;
+	float: left;
 }
-
+/*Login button as well as the home icon*/
 .button {
-    display: inline-block;
+	position: relative;
+    display: block;
+    float: right;
     padding: 6px 14px;
     border-radius: 3px;
     position: relative;
     background: url("../images/bgtile.png");
     font-weight: 500;
     border: 1px solid white;
-    left: 44%;
-    top: 70px;
     box-shadow: 3px 3px 3px #000000;
+    top: 10px;
 }
 
 button {
@@ -29,44 +30,6 @@ button {
 	position: relative;
 	background: url("../images/bgtile.png");
 	border: none;
-}
-
-#loginFont {
-	font-family: 'Slabo 27px', serif;
-	font-weight: 800;
-	position: relative;
-	font-size: 15px;
-	left: 10px;		
-}
-
-.body {
-	position: relative;
-	clear: both;
-}
-
-p {
-	font-family: 'Roboto Slab', serif;
-	position: relative;
-	left: 30px;
-	max-width: 450px;
-}
-
-a {
-	text-decoration: none;
-	text-transform: uppercase;
-	padding: 10px;
-	color: #3f729b;
-	font-family: 'Roboto Slab', serif;
-}
-
-h2 {
-	color: #125688;
-	font-family: 'Roboto Slab', serif;
-	font-weight: 800;
-	position: relative;
-	left: 30px;
-	line-height: 40%;
-	top: 10px;
 }
 
 .button p {
@@ -78,19 +41,67 @@ h2 {
 	padding: 10px;
 	bottom: 4px;
 }
+/*Capture and share*/
+.heading {
+	position: relative;
+	clear: both;
+	float: left;
+}
+/*Contains text as well as the app stores*/
+.textContent {
+	position: relative;
+	clear: both;
+	float: left;
 
+}
+/*Used to customize font of the login button*/
+#loginFont {
+	font-family: 'Slabo 27px', serif;
+	font-weight: 800;
+	position: relative;
+	font-size: 15px;
+	left: 10px;		
+}
+
+p {
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+	left: 30px;
+	max-width: 450px;
+}
+/*Removes underline from lines and changes font family. 
+Too lazy to go back and change the text to uppercase so handled it here*/
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	color: #3f729b;
+	font-family: 'Roboto Slab', serif;
+}
+/*Closes the line gap between h2 elements*/
+h2 {
+	color: #125688;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 800;
+	position: relative;
+	left: 30px;
+	line-height: 40%;
+	top: 10px;
+}
+/*Holds the phones image.
+Container is floated next to the content*/
 .phones {
 	position: relative;
 	display: inline;
 	float: right;
 	right: 550px;
-	bottom: 450px;
+	bottom: 550px;
 }
 
 .content {
 	position: relative;
 	float: right;
-	display: inline;
+	display: block;
 	width: 500px;
     background: url("../images/frame.png") no-repeat;
     right: 210px;
@@ -98,17 +109,30 @@ h2 {
     max-height: 350px;
 }
 
+.content2 {
+	display: block;
+	position: relative;
+	bottom: 80px;
+}
+
+.contentHeader {
+	position: relative;
+	bottom: 100px;
+}
+
 footer {
+	position: relative;
+	bottom: -20px;
 	clear: both;
 	text-align: center;
 }
-
+/*List items for the links in the footer*/
 li {
 	position: relative;
 	display: inline;
 
 }
-
+/*Custom font for the copyright logo*/
 #copyFont {
 	color: grey;
 	font-family: 'Roboto Slab', serif;
